@@ -21,17 +21,18 @@ int main(){
     setlocale(LC_ALL, "Portuguese");
     int h, m, s, resp;
 
-    printf("Digite o primeiro número inteiro ");
+    printf("Digite o primeiro nÃºmero inteiro ");
     scanf("%d", &h);
 
-    printf("Digite o segundo número inteiro: ");
+    printf("Digite o segundo nÃºmero inteiro: ");
     scanf("%d", &m);
 
-    printf("Digite o terceiro número inteiro: ");
+    printf("Digite o terceiro nÃºmero inteiro: ");
     scanf("%d", &s);
 
     resp = HorasEmSeg(h) + MinutosEmSeg(m) + s;
-    printf("A hora  %dh, %dmin e %dsegundos corresponde a %d segundos.", h, m, s, resp );
-
-
+    printf("A hora  %dh, %dmin e %dsegundos corresponde a %d segundos.\n\n", h, m, s, resp );
+    
+    system("pause);
+    return 0;
 }
