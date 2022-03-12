@@ -33,6 +33,6 @@ int main(){
     resp = HorasEmSeg(h) + MinutosEmSeg(m) + s;
     printf("A hora  %dh, %dmin e %dsegundos corresponde a %d segundos.\n\n", h, m, s, resp );
     
-    system("pause);
+    system("pause");
     return 0;
 }
